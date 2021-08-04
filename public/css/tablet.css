@@ -1,0 +1,225 @@
+@media only screen and (max-width:768px){
+    
+    .container{
+        height: 600px;
+    }
+    #iphone{
+        margin: 15% 5%;
+        height: 30%;
+        width: 20vw;
+    }
+    #cols1 div{
+        text-align: left;
+    }
+    #text1{
+    padding-top: 31%;
+    font-size: 2rem;
+}
+  #line1, #line2, #line3 {
+    margin-top: 1rem;
+    padding-right: 2rem;
+    margin-right: 0;
+   }
+   #top{
+    display: none;
+}
+
+.sidenav {
+
+    display: inline-block;
+
+    z-index:  450000000 !important;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.opn-btn{
+    display: inline-block;
+}
+h2{
+    margin: 2rem;
+}
+
+.opn-btn-fixed{
+    position: fixed;
+    /* background-color: pink; */
+    /* width: 100%; */
+}
+.logo-md{
+    display: inline-block;
+    float: right;
+    width: 100px;
+    margin-right: 5%;
+}
+.coll-img{
+    /* display: inline-block; */
+    position: absolute;
+    width:11%;;
+    top: 2px;
+    right: 20px;
+}
+.modal img{
+    position: absolute;
+    left: 0%;
+    top:30%;
+    width: 100%;
+}
+.colla{
+    z-index: 45000000;
+    position: fixed;
+    
+     width: 100%;
+    background-color: pink;;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+   label{
+       display: inline-block;
+       
+   }
+   #two{
+       width: 84%;
+   }
+   #signcont{
+       flex-direction: column;
+       padding: 0 25vw;
+   }
+   #sign1,#sign2,#sign3{
+       margin: 4% 0;
+       width: 50vw;
+   }
+   #image{
+       margin-top: 1rem;
+       margin-left: 1rem;
+   }
+   
+   .foods{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0,0,0,0.2);
+    transition: background-color 0.5s;  
+   
+   
+} 
+.foods:hover{
+   background-color: rgb(0,0,0,0);   
+}
+.food1{
+background-image: url(../images/1.jpg);
+
+}
+.food2{
+background-image: url(../images/2.jpg);
+
+}
+.food3{
+background-image: url(../images/3.jpg);
+
+}
+.food4{
+background-image: url(../images/4.jpg);
+
+}
+.food5{
+background-image: url(../images/5.jpg);
+}
+.food6{
+background-image: url(../images/6.jpg);
+}
+.food7{
+background-image: url(../images/7.jpg);
+}
+.food8{
+background-image: url(../images/8.jpg);
+}
+.food-items{
+    font-size: 0;
+}
+.food-items section{
+    overflow: hidden;
+    display: inline-block;
+    width: 25%;
+    height: 22vh;
+}
+#logo{
+    width: 1520% !important;
+}
+.food1,.food2,.food3,.food4,.food5,.food6,.food7,.food8{
+display: inline-block;
+
+ overflow: hidden;
+    display: inline-block;
+    margin-bottom: -.22rem;
+    width: 100%;
+height: 100%;
+background-position: center center;
+background-size: cover;
+transform: scale(1.2);
+transition: transform 0.5s; 
+
+}
+.food1:hover,.food2:hover,.food3:hover,.food4:hover,.food5:hover,.food6:hover,.food7:hover,.food8:hover{
+    transform: scale(1);
+}
+   #citycont{
+       margin: 1%
+   }
+   #london, #sc, #berlin, #lisbon{
+       height: 30%;
+       width: 110%;
+   }
+   #city1, #city2, #city3, #city4 {
+       margin-left: 1%;
+       margin-right: 4.9%;
+   }
+   #container4{
+       height: 600px;
+   }
+ #rev1, #rev2, #rev3 {
+    font-style: italic;
+    font-size: 1rem;
+    width: 29vw;
+    margin: 1rem 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#count{
+        height: 55px;
+}
+#anna, #it, #exo {
+    margin-top: 1rem;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+#pizzcol{
+    height: 600px;
+}
+}

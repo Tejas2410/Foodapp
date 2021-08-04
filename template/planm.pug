@@ -1,0 +1,37 @@
+-var i=1;
+for res in result
+ 
+ -var ide='sign'+i
+    div(id=ide)
+      p#sign1-head
+        | #{res.name}
+      br  
+      span#price
+        | $ #{res.price}
+      span#month
+        | / month
+      #linecont
+        p#sline1
+          | That&apos;s only #{res.permonth} $ per meal.
+        hr(style='border-color: rgb(224,224,224,0.4); width: 50%; margin-left: 25%; margin-top: 10px; margin-bottom: 10px;')
+        -const description = res.description
+        -console.log(description)
+        //- -console.log(description.size)
+        -for(var key in description){
+            -var val=description[key]
+            -if(typeof val === 'string'){
+                
+                span#sline2
+                    i#si.fas.fa-check-circle
+                    //- -console.log(val)
+                    span=`${val}` 
+                br
+            -}
+            
+        -}
+      hr(style='border-color: rgb(224,224,224,0.4); width: 50%; margin-left: 25%; margin-top: 10px; margin-bottom: 10px;')
+      if users
+       a#signbtn1.bookPlan(href='#' data-plan-id=`${res['_id']}`) Sign Up now
+      else
+       a#signbtn1(href='/login') Sign Up now 
+ -i=i+1

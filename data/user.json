@@ -1,0 +1,115 @@
+[
+    {
+        "name": "Leanne Graham",
+        "username": "Bret",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": 929983874
+        },
+        "password": "nwifniwr",
+        "confirmPassword": "nwifniwr",
+        "phone": 1770736803156442
+    },
+    {
+        "name": "Ervin Howell",
+        "username": "Antonette",
+        "email": "Shanna@melissa.tv",
+        "address": {
+            "street": "Victor Plains",
+            "suite": "Suite 879",
+            "city": "Wisokyburgh",
+            "zipcode": 905667771
+        },
+        "password": "vsfsgeergve",
+        "confirmPassword": "vsfsgeergve",
+        "phone": 59309125
+    },
+    {
+        "name": "John",
+        "username": "johnwick3",
+        "email": "Nathan@yesenia.net",
+        "address": {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": 595904157
+        },
+        "password": "nfolnwklfwf",
+        "confirmPassword": "nfolnwklfwf",
+        "phone": 14631234447
+    },
+    {
+        "name": "Shivang Lebsack",
+        "username": "Karianne",
+        "email": "Julianne.OConner@kory.org",
+        "address": {
+            "street": "Hoeger Mall",
+            "suite": "Apt. 692",
+            "city": "South Elvis",
+            "zipcode": 539194257
+        },
+        "password": "dqohfwfnwf",
+        "confirmPassword": "dqohfwfnwf",
+        "role": "admin",
+        "phone": 4931709623156
+    },
+    {
+        "name": "Chelsey Dietrich",
+        "username": "Kamren",
+        "email": "Lucio_Hettinger@annie.ca",
+        "address": {
+            "street": "Skiles Walks",
+            "suite": "Suite 351",
+            "city": "Roscoeview",
+            "zipcode": 33263
+        },
+        "password": "kdnoequfwhofpew",
+        "confirmPassword": "kdnoequfwhofpew",
+        "phone": 2549541289
+    },
+    {
+        "name": "Mrs. Dennis Schulist",
+        "username": "Leopoldo_Corkery",
+        "email": "Karley_Dach@jasper.info",
+        "address": {
+            "street": "Norberto Crossing",
+            "suite": "Apt. 950",
+            "city": "South Christy",
+            "zipcode": 235051337
+        },
+        "password": "fnwoecwompe",
+        "confirmPassword": "fnwoecwompe",
+        "phone": 147793584786430
+    },
+    {
+        "name": "Kurtis Weissnat",
+        "username": "Elwyn.Skiles",
+        "email": "Telly.Hoeger@billy.biz",
+        "address": {
+            "street": "Rex Trail",
+            "suite": "Suite 280",
+            "city": "Howemouth",
+            "zipcode": 588041099
+        },
+        "password": "fdnwbnwkef",
+        "confirmPassword": "fdnwbnwkef",
+        "phone": 2100676132
+    },
+    {
+        "name": "Nicholas Runolfsdottir V",
+        "username": "Maxime_Nienow",
+        "email": "Sherwood@rosamond.me",
+        "address": {
+            "street": "Ellsworth Summit",
+            "suite": "Suite 729",
+            "city": "Aliyaview",
+            "zipcode": 45169
+        },
+        "password": "nchw0fuowiefn",
+        "confirmPassword": "nchw0fuowiefn",
+        "phone": 5864936943140
+    }
+]

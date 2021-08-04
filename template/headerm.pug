@@ -1,0 +1,44 @@
+#mySidenav.sidenav
+  a.closebtn(href='javascript:void(0)' onclick='closeNav()') &times;
+  a(href='/#container2' onclick='closeNav()') FOOD DELIVERY
+  a(href='/#container3' onclick='closeNav()') HOW IT WORKS
+  a(href='/#container4' onclick='closeNav()') OUR CITIES
+   -if(users){
+       a(href='/profile' onclick='closeNav()') #{users.name}
+    
+       a.logoutbtn(href='#' onclick='closeNav()') Log Out  
+   -}
+   -else{  
+       a(href='/login' onclick='closeNav()') SIGN IN
+   -}
+  
+// logo-md
+nav.normal
+  a.opn-btn(href='javascript:void(0)' onclick='openNav()')
+            i.fas.fa-2x.fa-bars(style='color: white')
+  //- img.logo-md.coll-img(src='./images/logo.png')
+nav#top
+  img.logo(src='../images/logo.png')
+  ul
+    li
+      a#link(href='/#container2')
+        | FOOD DELIVERY
+    li
+      a#link(href='/#container3')
+        | HOW IT WORKS
+    li
+      a#link(href='/#container4')
+        | OUR CITIES
+    
+    
+    -if(users){
+       li 
+         a#link(href='/profile') #{users.name}
+       li
+         a#link.logoutbtn(href='#') Log Out  
+    -}
+    -else{  
+       li 
+         a#link(href='/login')
+          | SIGN IN
+    -}

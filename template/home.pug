@@ -1,0 +1,257 @@
+extends base
+block content
+  #container
+    p#text1
+      | GOODBYE JUNK FOOD.
+      br
+      | HELLO SUPER HEALTHY FOOD :)
+    #buttons
+      div
+        a#b1(href='#') I&apos;m Hungry
+      div
+        a#b2(href='#') Show More
+
+  #container2
+    h2#getfood GET FOOD FAST - NOT FAST FOOD
+    br
+    br
+    p#text3
+      | Hello! we&apos;re OmniFood, your new premium food delivery service.
+      | We know you&apos;re always busy. No time for coookong. So let
+      | us take care of that.We&apos;re really good at it. we promise.
+    #cols1.delay
+      #col1
+        i.fa.fa-5x.fa-calendar
+        h3
+          | UPTO 365 DAYS/YEAR
+        br
+        p
+          | Never cook again! We really mean that.
+          | Our subscription plans include upto 365 days/year coverage.
+          | You can also choose too order more flexibly if that&apos;s
+          | your style.
+      #col2
+        i.fa.fa-5x.fa-truck
+        h3
+          | READY IN 20 MINUTES
+        br
+        p
+          | You&apos;re only twenty minutes away from your delicious and
+          | super healthy meals delivered right to your home.
+          | We work with the best chef&apos;s in each town to ensure
+          | that yu&apos;re 100% happy
+      #col3
+        i.fa.fa-5x.fa-carrot
+        h3
+          | 100% ORGANIC
+        br
+        p
+          | All our vegetables are fresh, organic, and local.
+          | Animals are raised without added hrmones or
+          | antibiotics. Good for yoir health, the environment, and it also tastes better.
+      #col4
+        i.fas.fa-5x.fa-boxes
+        h3
+          | ORDER ANYTHING
+        br
+        p
+          | We don&apos;t limit your creativity whichmeans you can order
+          | whatever you like. You can also choose from our menu
+          | containing over 100 delicious meals. It&apos;s up to you.
+  #f-i.food-items
+    section(data-toggle='modal' data-target='#food1')
+      .food1
+        .foods
+    section(data-toggle='modal' data-target='#food2')
+      .food2
+        .foods
+    section(data-toggle='modal' data-target='#food3')
+      .food3
+        .foods
+    section(data-toggle='modal' data-target='#food4')
+      .food4
+        .foods
+    section(data-toggle='modal' data-target='#food5')
+      .food5
+        .foods
+    section(data-toggle='modal' data-target='#food6')
+      .food6
+        .foods
+    section(data-toggle='modal' data-target='#food7')
+      .food7
+        .foods
+    section(data-toggle='modal' data-target='#food8')
+      .food8
+        .foods
+    #food1.modal(style='display: none;' aria-hidden='true')
+      img(src='./images/1.jpg' alt='')
+    #food2.modal(style='display: none;' aria-hidden='true')
+      img(src='./images/2.jpg' alt='')
+    #food3.modal(style='display: none;' aria-hidden='true')
+      img(src='./images/3.jpg' alt='')
+    #food4.modal(style='display: none;' aria-hidden='true')
+      img(src='./images/4.jpg' alt='')
+    #food5.modal(style='display: none;' aria-hidden='true')
+      img(src='./images/5.jpg' alt='')
+    #food6.modal(style='display: none;' aria-hidden='true')
+      img(src='./images/6.jpg' alt='')
+    #food7.modal(style='display: none;' aria-hidden='true')
+      img(src='./images/7.jpg' alt='')
+    #food8.modal(style='display: none;' aria-hidden='true')
+      img(src='./images/8.jpg' alt='')
+    //
+      <img id="food1" src="./images/1.jpg" alt="" class="modal">
+      <img id="food2" src="./images/2.jpg" alt="" class="modal">
+      <img id="food3" src="./images/3.jpg" alt="" class="modal">
+      <img id="food4" src="./images/4.jpg" alt="" class="modal">
+      <img id="food5" src="./images/5.jpg" alt="" class="modal">
+      <img id="food6" src="./images/6.jpg" alt="" class="modal">
+      <img id="food7" src="./images/7.jpg" alt="" class="modal">
+      <img id="food8" src="./images/8.jpg" alt="" class="modal">
+  #container3
+    h2#how HOW IT WORKS - SIMPLE AS 1, 2, 3
+    #x
+      img#iphone(src='./images/iphone.png')
+      #two
+        #line1
+          h3#count 1
+          #content
+            | Choose the subscription plan that best suits your
+            | needs and sign up today.
+        #line2
+          h3#count 2
+          #content
+            | Order your delicious meal using our mobile
+            | app or website. Or you can even call us!.
+        #line3
+          h3#count 3
+          #content
+            | Enjoy your meal after less than 20 minutes. See you next
+            | time!.
+        // 
+        // 
+        #image
+          a(href='#')
+            img#google(src='./images/google-play-badge.png')
+          a(href='#')
+            img#apple(src='./images/apple.png')
+  #container4
+    h2#city
+      | WE&apos;RE CURRENTLY IN THESE CITIES
+    section#citycont
+      #city1
+        img#lisbon(src='./images/lisbon.jpg')
+        section
+          p#c1 LISBON
+          i#city_i.fas.fa-users
+          p#c2 1600+happpy eaters
+          br
+          i#city_i.fas.fa-crown
+          p#c3 60+ top chefs
+          br
+          i#city_i.fab.fa-twitter
+          p#c4
+            a(href='#') @omnifood_lx
+      #city2
+        img#sc(src='./images/sc.jpg')
+        section
+          p#c1 SAN FRANCISCO
+          i#city_i.fas.fa-users
+          p#c2 3700+ happy eater
+          br
+          i#city_i.fas.fa-crown
+          p#c3 160+ top chefs
+          br
+          i#city_i.fab.fa-twitter
+          p#c4
+            a(href='#') @omnifood_sf
+      #city3
+        img#berlin(src='./images/berlin.jpg')
+        section
+          p#c1 BERLIN
+          i#city_i.fas.fa-users
+          p#c2 1600+ happy eaters
+          br
+          i#city_i.fas.fa-crown
+          p#c3 100+ top chefs
+          br
+          i#city_i.fab.fa-twitter
+          p#c4
+            a(href='#') @omnifood_berlin
+      #city4
+        img#london(src='./images/london.jpg')
+        section
+          p#c1 LONDON
+          i#city_i.fas.fa-users
+          p#c2 3000+ happy eaters
+          br
+          i#city_i.fas.fa-crown
+          p#c3 50+ top chefs
+          br
+          i#city_i.fab.fa-twitter
+          p#c4
+            a(href='#') @omnifood_london
+  #container5
+    #pizzcol
+      h2#review
+        | OUR CUSTOMERS CAN&apos;T LIVE WITHOUT US
+      section#revcont
+        #rev1
+          i#quote.fas.fa-3x.fa-quote-left
+          p
+            | Omnifood is just awesome! I just launched
+            | a startup which leaves me with no time for cooking.
+            | So Omnifood is a ife-saver. Now that I got used to
+            | it, I couldn&apos;t live without my daily meals!
+          div
+            img#anna(src='./images/annabell.jpg' alt='')
+            span  Alberto Duncan
+        #rev2
+          i.fas.fa-3x.fa-quote-left
+          p
+            | Inexpensive, healthy and great-tasting meals, delivered
+            | right to my home. We have lots of food delivery here in lisbon
+            | , but no one comes even close to Omniffood. Me and my family
+            | are dso in love!
+          img#it(src='./images/it.jpg' alt='')
+          span  Joana Silva
+        #rev3
+          i.fas.fa-3x.fa-quote-left
+          p
+            | I was looking for a quick and easy food delivered
+            | service in San Francisco. I tried a lot of them and ended up with
+            | Omnifood. Best food delivery service in Bay area.
+            | Keep up the great work.
+          img#exo(src='./images/exorcist.jpg' alt='')
+          span  Milton Cooper
+  #container6
+    h2#signup
+      | START EATING HEALTHY TODAY
+    section#signcont
+     include planm
+  #container7
+    h2#form-head
+      | WE&apos;RE HAPPY TO HEAR FROM YOU
+    section#formcont
+      div
+        form(action='/')
+          p
+            label(for='name') Name
+            input#name(placeholder='Your Name' name='name' type='text' required='')
+          p
+            label(for='email') Email
+            input#email(placeholder='Email' name='email' type='text' required='')
+          p
+            label#found-text(for='found') How did you find us
+            select#found(placeholder='Friends' name='found')
+              option(value='') Friends
+              option(value='') Hoardings
+              option(value='') Internet
+          p
+            label(for='newsletter') Newsletter
+            input#news(name='newsletter' type='checkbox')
+          p#drop
+            label(for='drop-line') Drop us a line
+            textarea#drop-line(maxlength='600' placeholder='Your Reviews...( Not more than 150 words)' name='drop-line' cols='30' rows='10')
+          input#submit(name='submit' value='Send It 😊' type='submit')
+  
